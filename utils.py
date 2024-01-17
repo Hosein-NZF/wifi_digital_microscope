@@ -5,7 +5,6 @@ import numpy as np
 class UdpReceiveParser:
 
     def __init__(self):
-        self.parse_result_listener = None
         self.frame_buffer = bytearray(102400)
         self.frame_id = 0
         self.pkg_num = 0
